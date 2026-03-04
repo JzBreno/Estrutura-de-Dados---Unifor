@@ -1,0 +1,30 @@
+A segurança da informação é um pilar fundamental na era da conectividade digital global.
+Garantir a integridade de um documento eletrônico exige o uso de algoritmos complexos.
+O processo de autenticação textual permite identificar corretamente os autores de arquivos.
+Ferramentas de assinatura digital asseguram a veracidade da identidade de cada signatário.
+Isso proporciona a segurança jurídica necessária em petições e transações comerciais online.
+Além de confirmar a origem, a autenticação digital protege a integridade do conteúdo enviado.
+Qualquer alteração no documento eletrônico pode ser visualizada por menor que ela seja.
+O uso de funções de dispersão criptográfica como o SHA-1 é essencial para este fim.
+Neste projeto utilizamos uma árvore AVL para organizar as palavras de cada linha lida.
+O balanceamento da árvore garante uma busca eficiente e uma estrutura organizada de dados.
+As palavras são obtidas ao identificar os espaços em branco entre os textos originais.
+Cada linha do arquivo textual é consumida individualmente pelo sistema de autenticação.
+A inserção na árvore ocorre no sentido reverso para exercitar a manipulação de listas.
+Palavras duplicadas devem ser desconsideradas durante a construção da estrutura de dados.
+O método compareToIgnoreCase é utilizado para realizar as devidas comparações de strings.
+Após o cadastro de todas as strings de uma linha a árvore resultante é empilhada.
+O fluxo de construção da pilha de árvores segue uma sequência lógica de passos técnicos.
+A pilha permite que processemos as linhas na ordem inversa à que foram lidas originalmente.
+Ao desempilhar cada árvore iniciamos o cálculo do código hash único para aquela linha.
+Os nós pais armazenam o hash resultante da combinação dos hashes de seus filhos diretos.
+A fórmula h(h(A) + h(B) + h(P)) define a integridade em cascata de toda a árvore AVL.
+Se um nó não possui filhos à esquerda ou direita não se aplica hash para valores nulos.
+O hash final do documento encontra-se armazenado no nó raiz de cada árvore processada.
+A implementação manual de estruturas como Pilhas e Árvores é um requisito acadêmico.
+Evitar o uso de frameworks prontos demonstra domínio sobre a lógica de programação pura.
+O relatório final deve seguir o modelo de artigo científico com metodologia e resultados.
+A apresentação em vídeo de dez minutos é parte integrante da avaliação deste trabalho.
+Cada membro da equipe deve ter um papel protagonista na explicação das funcionalidades.
+O software anti-plágio garante a originalidade e a ética no desenvolvimento do projeto.
+Este exercício consolida os conhecimentos de estruturas de dados lineares e não lineares.
