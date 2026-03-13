@@ -1,4 +1,4 @@
 package structures;
 
-public class Pilha {
+public class AVLTree {
 }
