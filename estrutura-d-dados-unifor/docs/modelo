@@ -222,7 +222,7 @@ src
  │
  ├─ structures
  │   ├─ AVLTree.java
- │   └─ StackTree.java
+ │   └─ HashTree.java
  │
  ├─ service
  │   ├─ FileProcessor.java
