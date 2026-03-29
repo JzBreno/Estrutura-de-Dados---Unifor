@@ -71,7 +71,7 @@ public class AVLNode {
     }
 
     public void setHash(String hash) {
-        hash = hash;
+        this.hash = hash;
     }
 
     public AVLNode getLeft() {
