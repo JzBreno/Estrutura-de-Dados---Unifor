@@ -106,4 +106,15 @@ public class AVLTree {
     public AVLNode getRoot() {
         return root;
     }
+
+    /** Pós-ordem: recalcula hash da subárvore  */
+    public String computeHash(AVLNode node) {
+        if (node == null) {
+            return "";
+        }
+        computeHash(node.getLeft());
+        computeHash(node.getRight());
+        node.updateNodeData();
+        return node.getHash();
+    }
 }
