@@ -1,5 +1,6 @@
 import service.FileProcessor;
 import structures.AVLTree;
+import structures.HashTree;
 
 import java.util.Stack;
 
@@ -11,9 +12,10 @@ public class Main {
         if (stack.isEmpty()) {
             System.exit(1);
         }
+        HashTree hashTree = new HashTree();
         while (!stack.isEmpty()) {
             AVLTree tree = stack.pop();
-            System.out.println(tree.computeHash(tree.getRoot()));
+            System.out.println(hashTree.computeHash(tree.getRoot()));
         }
     }
 }
